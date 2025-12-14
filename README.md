@@ -79,21 +79,25 @@ The project is built using **Python 3.x** and the following libraries:
 ## 📂 Project Structure
 
 ```text
-ev-charging-analysis/
+my-data-analysis-project/
 │
 ├── data/
-│   └── ev_charging_germany.csv    # Raw dataset (Input)
+│   ├── data_source_description.txt
+│   └── ev_charging_germany.csv
 │
-├── notebooks/
-│   └── analysis.ipynb             # Jupyter Notebook with full code
+├── src/
+│   ├── analysis_functions.py
+│   ├── prs_german_charging_stations.py
+│   └── analysis_notebook.ipynb
 │
-├── images/                        # Generated plots and maps
-│   ├── stations_by_state.png
-│   └── amberg_map.html
-│
-├── README.md                      # Project Documentation
-└── requirements.txt               # Python dependencies
+├── requirements.txt
+├── LICENSE
+├── Markupfile.txt
+├── PRS_Final_Project_v1.1.ipynb
+└── Readme.md
+
 ```
+
 
 Installation & Setup
 Follow these steps to run the project locally:
@@ -148,12 +152,12 @@ Total Stations & Power Calculation.
 
 Visual: Interactive Folium Map marking specific coordinates in Amberg.
 
-## Operator Analysis
+## 📊 Operator Analysis
 Metric: Market share by number of charging points.
 
 Visual: Bar chart of the Top 5 Operators.
 
-## Key Insights
+## 🛠️ Key Insights
 💡 Regional Disparity: Western and Southern states (e.g., Bavaria, NRW) show significantly higher infrastructure density than Eastern states.
 
 💡 Hidden Gems: Several medium-sized cities outperform larger counterparts when normalized for population.
@@ -164,6 +168,7 @@ Visual: Bar chart of the Top 5 Operators.
 
 ## Authors
 Sathwik Nagasundara Sharma
+
 Alla Sai Surya
 
 ## 📜 License
