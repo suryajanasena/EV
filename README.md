@@ -115,27 +115,30 @@ You can run the analysis via a Python script or Jupyter Notebook:
 Bash
 jupyter notebook notebooks/analysis.ipynb
 
-**Analysis & Workflow**
-The project follows a structured data science pipeline:
+## 📊 Analysis & Workflow
 
-**Data Loading & Cleaning**
+The project follows a structured data science pipeline
+
+Data Loading & Cleaning
 Reading CSV with specific encodings.
-
 Handling missing values and data types.
 
-**State-Level Analysis**
-Metric: Total charging stations per state.
+## 🗂️State-Level Analysis
+Metric --> Total charging stations per state.
 
-Visual: Horizontal Bar Chart.
+Visual --> Horizontal Bar Chart.
 
-Outcome: Ranking of states (e.g., Bavaria vs. Bremen).
+Outcome --> Ranking of states (e.g., Bavaria vs. Bremen).
 
-**Geospatial Mapping**
-Method: Merging data with GeoJSON of German states.
+## 📌 Geospatial Mapping
 
-Visual: Choropleth Map (Darker shade = Higher density).
+Method
+Merging data with GeoJSON of German states.
 
-**City-Level & Case Study (Amberg)**
+Visuals
+Choropleth Map (Darker shade = Higher density).
+
+## City-Level & Case Study (Amberg)
 
 Filtering: Removing top 4 major metros to find hidden leaders.
 
@@ -145,12 +148,12 @@ Total Stations & Power Calculation.
 
 Visual: Interactive Folium Map marking specific coordinates in Amberg.
 
-**Operator Analysis**
+## Operator Analysis
 Metric: Market share by number of charging points.
 
 Visual: Bar chart of the Top 5 Operators.
 
-**Key Insights**
+## Key Insights
 💡 Regional Disparity: Western and Southern states (e.g., Bavaria, NRW) show significantly higher infrastructure density than Eastern states.
 
 💡 Hidden Gems: Several medium-sized cities outperform larger counterparts when normalized for population.
@@ -159,9 +162,9 @@ Visual: Bar chart of the Top 5 Operators.
 
 💡 Market Concentration: The top 5 operators control a substantial portion of the public charging network.
 
-**Authors**
+## Authors
 Sathwik Nagasundara Sharma
 Alla Sai Surya
 
-**📜 License**
+## 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details. Intended for academic and educational purposes.
