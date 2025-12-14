@@ -1,5 +1,4 @@
-# ⚡ Electric Vehicle (EV) Charging Infrastructure Analysis - Germany
-
+# Electric Vehicle (EV) Charging Infrastructure Analysis - Bavaria
 
 A data-driven analysis and visualization project exploring the distribution, density, and operator dominance of Electric Vehicle (EV) charging stations across Germany, with a focused case study on the city of **Amberg**.
 
@@ -94,7 +93,9 @@ ev-charging-analysis/
 │
 ├── README.md                      # Project Documentation
 └── requirements.txt               # Python dependencies
-🚀 Installation & Setup
+```
+
+Installation & Setup
 Follow these steps to run the project locally:
 
 1. Clone the Repository
@@ -112,29 +113,30 @@ pip install pandas numpy matplotlib seaborn geopandas folium
 You can run the analysis via a Python script or Jupyter Notebook:
 
 Bash
-
 jupyter notebook notebooks/analysis.ipynb
-📊 Analysis & Workflow
+
+**Analysis & Workflow**
 The project follows a structured data science pipeline:
 
-1️⃣ Data Loading & Cleaning
+**Data Loading & Cleaning**
 Reading CSV with specific encodings.
 
 Handling missing values and data types.
 
-2️⃣ State-Level Analysis
+**State-Level Analysis**
 Metric: Total charging stations per state.
 
 Visual: Horizontal Bar Chart.
 
 Outcome: Ranking of states (e.g., Bavaria vs. Bremen).
 
-3️⃣ Geospatial Mapping
+**Geospatial Mapping**
 Method: Merging data with GeoJSON of German states.
 
 Visual: Choropleth Map (Darker shade = Higher density).
 
-4️⃣ City-Level & Case Study (Amberg)
+**City-Level & Case Study (Amberg)**
+
 Filtering: Removing top 4 major metros to find hidden leaders.
 
 Amberg Deep Dive:
@@ -143,12 +145,12 @@ Total Stations & Power Calculation.
 
 Visual: Interactive Folium Map marking specific coordinates in Amberg.
 
-5️⃣ Operator Analysis
+**Operator Analysis**
 Metric: Market share by number of charging points.
 
 Visual: Bar chart of the Top 5 Operators.
 
-📌 Key Insights
+**Key Insights**
 💡 Regional Disparity: Western and Southern states (e.g., Bavaria, NRW) show significantly higher infrastructure density than Eastern states.
 
 💡 Hidden Gems: Several medium-sized cities outperform larger counterparts when normalized for population.
@@ -157,14 +159,9 @@ Visual: Bar chart of the Top 5 Operators.
 
 💡 Market Concentration: The top 5 operators control a substantial portion of the public charging network.
 
-🧑‍💻 Author
+**Authors**
+Sathwik Nagasundara Sharma
 Alla Sai Surya
 
-MSc AI for Industrial Applications
-
-📍 Germany 🇩🇪
-
-If you have any questions or feedback, feel free to reach out!
-
-📜 License
+**📜 License**
 This project is licensed under the MIT License - see the LICENSE file for details. Intended for academic and educational purposes.
