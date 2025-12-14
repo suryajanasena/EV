@@ -105,7 +105,7 @@ Follow these steps to run the project locally:
 1. Clone the Repository
 Bash
 
-git clone [https://github.com/your-username/ev-charging-germany.git](https://github.com/your-username/ev-charging-germany.git)
+git clone (https://github.com/SathwikSharma226/PRS_FinalProject_DataViz)
 cd ev-charging-germany
 2. Install Dependencies
 Ensure you have Python installed. Then run:
