@@ -1,10 +1,11 @@
-# Electric Vehicle (EV) Charging Infrastructure Analysis - Bavaria
 
-A data-driven analysis and visualization project exploring the distribution, density, and operator dominance of Electric Vehicle (EV) charging stations across Germany, with a focused case study on the city of **Amberg**.
+# Electric Vehicle Charging Analysis - Bavaria
 
----
+This is a Data Analysis and visualization project which explores distribution, density and dominance of Electric Vehicle charging stations across Germany, at present focused case study is on the city of Amberg, Bavaria.
 
-## 📑 Table of Contents
+
+
+## Table of Contents
 
 - [📍 Project Overview](#-project-overview)
 - [🎯 Objectives](#-objectives)
@@ -17,42 +18,48 @@ A data-driven analysis and visualization project exploring the distribution, den
 - [🧑‍💻 Author](#-author)
 - [📜 License](#-license)
 
----
+## 📊 Project Overview
+Given the growing use of electric vehicles, charging infrastructure is a highly regarded consideration. To address these issues, this project utilizes Python programming to examine the Dataset.
 
-## 📍 Project Overview
+This analysis describes about the following features:
 
-With the rapid adoption of electric vehicles, robust charging infrastructure is critical. This project leverages Python to analyze the **Bundesnetzagentur** dataset, identifying regional disparities and infrastructure density.
+* **State Level Distribution** (Bundesnetzagentur)
+* **City-level rankings**(non-major cities)
+* **Operator market share** (Describes about operator market share.)
+* **Geospatial Visualization** (Interactive & Static maps)
+* **Case Study** (Examine Amberg’s EV infrastructure in depth.)
 
-The analysis covers:
-* **State-level distribution** (Bundesländer)
-* **City-level rankings** (excluding major metros)
-* **Operator market share**
-* **Geospatial visualization** (Interactive & Static maps)
-* **Case Study:** Deep dive into Amberg's EV infrastructure.
 
----
+
 
 ## 🎯 Objectives
 
-* **Analyze** the distribution of charging stations across all 16 German states.
-* **Identify** regional extremes (highest vs. lowest density).
-* **Discover** top-performing medium-sized cities (excluding Berlin, Munich, Hamburg, Cologne).
-* **Case Study:** Analyze **Amberg** for total stations, power output, and location mapping.
-* **Determine** the top 5 dominant charging station operators.
-* **Visualize** data using Bar Charts, Choropleth Maps, and Folium Interactive Maps.
+Analyze the geographical distribution of charging stations across 16 federal states of Germany.
 
----
+Finding the states having maximum number and minimum density of stations.
+
+Select the top medium sized cities excluding popular cities like Berlin, Munich, Hamburg and cologne.
+
+Analayse about Amberg by examining total number of power stations, power output and location mapping.
+
+Identifying the top 5 operators who are managing most of the charging points.
+
+Visualizing data using Bar charts, and folium Interactive Maps.
+
+
+
 
 ## 🗂️ Dataset
 
-The analysis is based on the following dataset:
+This Analaysis is based on the Dataset given below
 
 * **File Name:** `ev_charging_germany.csv`
-* **Source:** Public EV infrastructure data (e.g., Bundesnetzagentur).
+* **Source:** Public EV infrastructure data (e.g. Bundesland).
 * **Format:** CSV (Semicolon `;` separated)
 * **Encoding:** UTF-8
 
-### 🗝️ Key Variables
+
+## 🗝️ Key Variables
 
 | Column Name | Description |
 | :--- | :--- |
@@ -70,11 +77,10 @@ The analysis is based on the following dataset:
 
 The project is built using **Python 3.x** and the following libraries:
 
-* **Data Manipulation:** `pandas`, `numpy`
-* **Visualization:** `matplotlib`, `seaborn`
-* **Geospatial Analysis:** `geopandas`, `folium`
+* **Data Manipulation:** `pandas`,`numpy`
+* **Visualization:** `matplotlib`,`seaborn`
+* **Geospatial Analysis:** `geopandas`,`folium`
 
----
 
 ## 📂 Project Structure
 
@@ -99,77 +105,48 @@ my-data-analysis-project/
 ```
 
 
-Installation & Setup
-Follow these steps to run the project locally:
+## 💻 Installation
 
-1. Clone the Repository
-Bash
 
-git clone [(https://github.com/SathwikSharma226/PRS_FinalProject_DataViz)]
-cd ev-charging-germany
+```bash
+1. Clone the git repository
+
+    git clone https://github.com/SathwikSharma226/PRS_FinalProject_DataViz
+    cd ev-charging-germany
+
 2. Install Dependencies
-Ensure you have Python installed. Then run:
 
-Bash
+    pip install pandas numpy matplotlib seaborn geopandas folium
+    or 
+    pip install -r requirements.txt
 
-pip install pandas numpy matplotlib seaborn geopandas folium
 3. Run the Analysis
-You can run the analysis via a Python script or Jupyter Notebook:
 
-Bash
-jupyter notebook notebooks/analysis.ipynb
+    python prs_german_charging_stations.py
+
+    You can run the analysis via a Python script or Jupyter Notebook
+
+```
 
 ## 📊 Analysis & Workflow
 
-The project follows a structured data science pipeline
+    1. Data loading
 
-Data Loading & Cleaning
-Reading CSV with specific encodings.
-Handling missing values and data types.
+    2. Data cleaning
 
-## 🗂️State-Level Analysis
-Metric --> Total charging stations per state.
+    3. Reading CSV with specific encodings
 
-Visual --> Horizontal Bar Chart.
+    4. Handling missing values and data types
 
-Outcome --> Ranking of states (e.g., Bavaria vs. Bremen).
 
-## 📌 Geospatial Mapping
 
-Method
-Merging data with GeoJSON of German states.
+## 📶 Authors
+    Sathwik Nagasundara Sharma
 
-Visuals
-Choropleth Map (Darker shade = Higher density).
+    Alla Sai Surya (s.alla@oth-aw.de)
 
-## City-Level & Case Study (Amberg)
+## 🧾License
 
-Filtering: Removing top 4 major metros to find hidden leaders.
+    This project is purely for educational and academic purposes only and licensed under MIT-lICENSE.
 
-Amberg Deep Dive:
 
-Total Stations & Power Calculation.
-
-Visual: Interactive Folium Map marking specific coordinates in Amberg.
-
-## 📊 Operator Analysis
-Metric: Market share by number of charging points.
-
-Visual: Bar chart of the Top 5 Operators.
-
-## 🛠️ Key Insights
-💡 Regional Disparity: Western and Southern states (e.g., Bavaria, NRW) show significantly higher infrastructure density than Eastern states.
-
-💡 Hidden Gems: Several medium-sized cities outperform larger counterparts when normalized for population.
-
-💡 Amberg Case Study: Amberg demonstrates a well-distributed network relative to its urban area.
-
-💡 Market Concentration: The top 5 operators control a substantial portion of the public charging network.
-
-## Authors
-Sathwik Nagasundara Sharma
-
-Alla Sai Surya
-
-## 📜 License
-This project is licensed under the MIT License - see the LICENSE file for details. Intended for academic and educational purposes.
