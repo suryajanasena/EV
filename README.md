@@ -7,18 +7,18 @@ This is a Data Analysis and visualization project which explores distribution, d
 
 ## Table of Contents
 
-- [📍 Project Overview](#-project-overview)
-- [🎯 Objectives](#-objectives)
-- [🗂️ Dataset](#-dataset)
-- [🛠️ Technologies Used](#-technologies-used)
-- [📂 Project Structure](#-project-structure)
-- [🚀 Installation & Setup](#-installation--setup)
-- [📊 Analysis & Workflow](#-analysis--workflow)
-- [📌 Key Insights](#-key-insights)
-- [🧑‍💻 Author](#-author)
-- [📜 License](#-license)
+- [ Project Overview](#-project-overview)
+- [ Objectives](#-objectives)
+- [ Dataset](#-dataset)
+- [ Technologies Used](#-technologies-used)
+- [ Project Structure](#-project-structure)
+- [ Installation & Setup](#-installation--setup)
+- [ Analysis & Workflow](#-analysis--workflow)
+- [ Key Insights](#-key-insights)
+- [ Author](#-author)
+- [ License](#-license)
 
-## 📊 Project Overview
+##  Project Overview
 Given the growing use of electric vehicles, charging infrastructure is a highly regarded consideration. To address these issues, this project utilizes Python programming to examine the Dataset.
 
 This analysis describes about the following features:
@@ -32,7 +32,7 @@ This analysis describes about the following features:
 
 
 
-## 🎯 Objectives
+##  Objectives
 
 Analyze the geographical distribution of charging stations across 16 federal states of Germany.
 
@@ -49,7 +49,7 @@ Visualizing data using Bar charts, and folium Interactive Maps.
 
 
 
-## 🗂️ Dataset
+##  Dataset
 
 This Analaysis is based on the Dataset given below
 
@@ -59,7 +59,7 @@ This Analaysis is based on the Dataset given below
 * **Encoding:** UTF-8
 
 
-## 🗝️ Key Variables
+##  Key Variables
 
 | Column Name | Description |
 | :--- | :--- |
@@ -73,7 +73,7 @@ This Analaysis is based on the Dataset given below
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 The project is built using **Python 3.x** and the following libraries:
 
@@ -82,7 +82,7 @@ The project is built using **Python 3.x** and the following libraries:
 * **Geospatial Analysis:** `geopandas`,`folium`
 
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 my-data-analysis-project/
@@ -105,7 +105,7 @@ my-data-analysis-project/
 ```
 
 
-## 💻 Installation
+##  Installation
 
 
 ```bash
@@ -128,7 +128,7 @@ my-data-analysis-project/
 
 ```
 
-## 📊 Analysis & Workflow
+##  Analysis & Workflow
 
     1. Data loading
 
@@ -140,12 +140,12 @@ my-data-analysis-project/
 
 
 
-## 📶 Authors
+##  Authors
     Sathwik Nagasundara Sharma
 
     Alla Sai Surya (s.alla@oth-aw.de)
 
-## 🧾License
+## License
 
     This project is purely for educational and academic purposes only and licensed under MIT-lICENSE.
 
